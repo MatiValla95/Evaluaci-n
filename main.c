@@ -4,13 +4,13 @@
 #include "funciones.h"
 
 int main(){
-    char chips [3][20] ;
-    int stockChips [3] ;
-    int metalParts = 0 , buttons = 0 , optM = 0, optC = 0;
-    char products [3][20] ;
-    int productsCostMaterial [3][3];
+    char chips[3][20];
+    int stockChips[3];
+    int metalParts = 0, buttons = 0, optM = 0, optC = 0;
+    char products[3][20];
+    int productsCostMaterial[3][3];
     int productsChips[3][3];
-    float productsPrice [3];
+    float productsPrice[3];
 
     while(optC != 1){
 
