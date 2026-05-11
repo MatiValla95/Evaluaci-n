@@ -49,8 +49,8 @@ int menu ( char chips[3][20] , int stockChips[3], int *buttons, int *metalParts 
 
     int opt = 0;
 
-    printf("----OptiFlex Productions Program----\n");
     printf("Por favor seleccione lo que desea hacer\n");
+    printf("----OptiFlex Productions Program----\n\n");
     printf("1.-Ingresar la cantidad de materiales de fabricacion\n");
     printf("2.-Ingresar el nombre de los productos, la cantidad de materiales que se necesita para realizarlos \ny tiempo de fabricacion \n");
     printf("3.-Crear y vender productos\n");
