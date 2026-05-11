@@ -3,9 +3,9 @@
 #include <stdbool.h>
 #include "funciones.h"
 
-int validateInts () {
+int validateInts() {
 
-    int n, aux = 0 ;
+    int n, aux = 0;
 
     while(aux !=1 ){
         aux = scanf("%d",&n);
@@ -16,12 +16,12 @@ int validateInts () {
         }
     }
 
-    return n ;
+    return n;
 }
 
 float validateFloats () {
 
-    float n, aux = 0 ;
+    float n, aux = 0;
 
     aux = scanf("%f",&n);
      while(aux !=1 ){
@@ -33,7 +33,7 @@ float validateFloats () {
         }
     }
 
-    return n ;
+    return n;
 }
 
 void readChain(char *chain, int n){
